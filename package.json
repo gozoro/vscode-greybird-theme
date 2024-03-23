@@ -1,0 +1,24 @@
+{
+    "name": "greybird-theme",
+	"displayName": "Greybird Theme",
+	"description": "Visual Studio Code light theme for those who don't like bright colors and a lot of colored syntax highlighting and prefer shades of gray in interfaces.",
+	"publisher": "RomanBolovintsev",
+	"repository": "https://github.com/gozoro/vscode-greybird-theme",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": ">=1.61.0"
+    },
+	"icon": "./images/icon.png",
+	"categories": [
+		"Themes"
+	  ],
+   "contributes": {
+        "themes": [
+			{
+                "label": "Greybird Theme",
+                "uiTheme": "vs",
+                "path": "./themes/greybird-light-theme.json"
+            }
+        ]
+    }
+}
