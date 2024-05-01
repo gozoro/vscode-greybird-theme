@@ -716,11 +716,11 @@
 			],
 			"settings": {
 				"fontStyle":"bold",
-				"foreground": "#303030",
-				"foreground2": "#286228"
+				"foreground": "#303030"
 
 			}
 		},
+
 
 
 
@@ -738,7 +738,6 @@
 			],
 			"settings": {
 				"fontStyle":"bold",
-				"foreground2": "#286228",
 				"foreground": "#303030"
 			}
 		},
@@ -751,7 +750,6 @@
 				"fontStyle":"normal",
 				"foreground": "#447544"
 			}
-
 		},
 		{
 			"name": "Markdown: link",
@@ -762,7 +760,6 @@
 				"fontStyle":"normal",
 				"foreground": "#0078d4"
 			}
-
 		},
 		{
 			"name": "Markdown: bold",
@@ -805,7 +802,6 @@
 				"foreground": "#286228"
 			}
 		},
-
 
 
 
