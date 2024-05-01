@@ -308,25 +308,29 @@
 			}
 		},
 		{
-			"name": "HTML: attribute",
+			"name": "HTML: special attributes",
 			"scope": [
-				"entity.other.attribute-name.html"
+				"meta.attribute.checked.html",
+				"meta.attribute.selected.html",
+				"meta.attribute.multiple.html",
+				"meta.attribute.readonly.html",
+				"meta.attribute.disabled.html"
 			],
 			"settings": {
-				"foreground": "#303030"
-			}
-		},
-		{
-			"name": "HTML: attribute class",
-			"scope": [
-				"meta.attribute.class.html",
-				"meta.attribute"
-			],
-			"settings": {
+				"fontStyle":"bold",
 				"foreground": "#447544"
 			}
 		},
-
+		{
+			"name": "HTML: attribute separator",
+			"scope": [
+				"punctuation.separator.key-value.html"
+			],
+			"settings": {
+				"fontStyle":"normal",
+				"foreground": "#303030"
+			}
+		},
 
 
 
