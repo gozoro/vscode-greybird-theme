@@ -153,7 +153,8 @@
 				"variable.other.property.php",
 				"support.function.string.php",
 				"punctuation.definition.arguments.begin.bracket.round.php",
-				"punctuation.definition.arguments.end.bracket.round.php"
+				"punctuation.definition.arguments.end.bracket.round.php",
+				"meta.embedded.line.php support.class.php"
 			],
 			"settings": {
 				"fontStyle":"normal",
