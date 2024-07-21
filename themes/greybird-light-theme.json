@@ -231,7 +231,8 @@
 		{
 			"name": "PHP: Comment Type",
 			"scope": [
-				"meta.other.type.phpdoc.php keyword.other.type.php"
+				"meta.other.type.phpdoc.php keyword.other.type.php",
+				"comment.block.documentation.phpdoc.php storage.modifier.php"
 			],
 			"settings": {
 				"fontStyle":"normal",
@@ -411,13 +412,12 @@
 		{
 			"name": "JS: Variables",
 			"scope": [
-
-
 				"variable.other.object.js",
 				"variable.other.constant.js",
 				"variable.other.readwrite.js",
 				"variable.other.readwrite.alias.js",
-				"variable.parameter.js"
+				"variable.parameter.js",
+				"meta.definition.variable.js entity.name.function.js"
 			],
 			"settings": {
 				"fontStyle":"normal",
@@ -672,6 +672,44 @@
 				"foreground": "#303030"
 			}
 		},
+
+		{
+			"name": "SHELL: case pattern ",
+			"scope": [
+				"meta.scope.case-pattern.shell"
+			],
+			"settings": {
+				"fontStyle":"normal",
+				"foreground": "#447544"
+			}
+		},
+
+		{
+			"name": "SHELL: case pattern ",
+			"scope": [
+				"punctuation.separator.pipe-sign.shell",
+				"punctuation.definition.case-pattern.shell"
+			],
+			"settings": {
+				"fontStyle":"normal",
+				"foreground": "#303030"
+			}
+		},
+
+		{
+			"name": "SHELL: eval ",
+			"scope": [
+				"punctuation.definition.evaluation.parens.begin.shell",
+				"punctuation.definition.evaluation.parens.end.shell"
+			],
+			"settings": {
+				"fontStyle":"normal",
+				"foreground": "#303030"
+			}
+		},
+
+
+
 
 
 
