@@ -1,4 +1,4 @@
-FROM ubuntu:23.04
+FROM ubuntu:24.04
 
 RUN apt update
 RUN apt install -y nodejs npm
@@ -12,8 +12,8 @@ RUN npm install -g @vscode/vsce
 
 USER vsce
 
-ENV USER vsce
-ENV HOME /home/vsce
+ENV USER=vsce
+ENV HOME=/home/vsce
 
 RUN mkdir -p /home/vsce/.config
 
