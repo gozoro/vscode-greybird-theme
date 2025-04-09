@@ -1,5 +1,9 @@
 ## ChangeLog
 
+#### v1.0.4 (2025-04-09)
+
+- fixed golang highlight after update VSCode to v1.98.2 and Go 1.21 or newer
+
 #### v1.0.3 (2024-07-21)
 
 - fixed javascript highlight (definition variable with function)

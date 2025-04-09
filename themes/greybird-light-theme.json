@@ -511,6 +511,7 @@
 			"name": "GO: Import",
 			"scope": [
 				"entity.name.package.go",
+				"entity.name.type.package.go",
 				"string.quoted.rune.go"
 			],
 			"settings": {
@@ -533,13 +534,18 @@
 				"punctuation.definition.imports.begin.bracket.round.go",
 				"punctuation.definition.imports.end.bracket.round.go",
 				"punctuation.definition.bracket.square.go",
+
+				"punctuation.definition.begin.bracket.square.go",
+				"punctuation.definition.end.bracket.square.go",
+
 				"punctuation.other.comma.go",
 				"punctuation.other.period.go",
 				"punctuation.terminator.go",
 				"keyword.operator.assignment.go",
 				"keyword.operator.comparison.go",
 				"keyword.operator.increment.go",
-				"punctuation.other.colon.go"
+				"punctuation.other.colon.go",
+				"entity.name.function.support.go"
 			],
 			"settings": {
 				"fontStyle":"normal",
@@ -563,7 +569,10 @@
 				"constant.language.go",
 				"support.function.builtin.go",
 				"keyword.operator.address.go",
-				"keyword.operator.logical.go"
+				"keyword.operator.logical.go",
+				"constant.language.null.go",
+				"constant.language.boolean.go",
+				"entity.name.function.support.builtin.go"
 			],
 			"settings": {
 				"fontStyle":"bold",
