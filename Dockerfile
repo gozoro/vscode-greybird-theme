@@ -1,4 +1,4 @@
-FROM ubuntu:24.04
+FROM ubuntu:25.04
 
 RUN apt update
 RUN apt install -y nodejs npm

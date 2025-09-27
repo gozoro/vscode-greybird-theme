@@ -8,7 +8,13 @@
     "engines": {
         "vscode": ">=1.61.0"
     },
-	"icon": "./images/icon.png",
+	"license": "MIT",
+	"icon": "./img/icon.png",
+	"keywords": [
+        "greybird",
+        "light",
+        "theme"
+    ],
 	"categories": [
 		"Themes"
 	  ],
