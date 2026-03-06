@@ -1,5 +1,10 @@
 ## ChangeLog
 
+#### v1.0.5 (2026-03-06)
+
+- html and xml unification
+- added highlight go type - any
+
 #### v1.0.4 (2025-04-09)
 
 - fixed golang highlight after update VSCode to v1.98.2 and Go 1.21 or newer

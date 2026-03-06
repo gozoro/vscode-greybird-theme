@@ -119,13 +119,7 @@
 				"foreground": "#447544"
 			}
 		},
-		{
-			"name": "COMMON: Regexp",
-			"scope": "string.regexp",
-			"settings": {
-				"foreground": "#bb33dd"
-			}
-		},
+
 		{
 			"name": "COMMON: Regexp operators",
 			"scope": [
@@ -141,7 +135,13 @@
 				"foreground": "#9933dd"
 			}
 		},
-
+		{
+			"name": "COMMON: Regexp",
+			"scope": "string.regexp",
+			"settings": {
+				"foreground": "#bb33dd"
+			}
+		},
 
 
 
@@ -159,6 +159,26 @@
 			"settings": {
 				"fontStyle":"normal",
 				"foreground": "#303030"
+			}
+		},
+		{
+			"name": "PHP: Common Regexp Disabled",
+			"scope": [
+				"string.regexp.single-quoted.php",
+				"string.regexp.double-quoted.php"
+			],
+			"settings": {
+				"foreground": "#447544"
+			}
+		},
+				{
+			"name": "PHP: Regexp",
+			"scope": [
+				"meta.function-call.php string.regexp.single-quoted.php",
+				"meta.function-call.php string.regexp.double-quoted.php"
+			],
+			"settings": {
+				"foreground": "#bb33dd"
 			}
 		},
 		{
@@ -270,7 +290,6 @@
 			],
 			"settings": {
 				"fontStyle":"bold",
-				"foreground2": "#c5411e",
 				"foreground": "#bb33dd"
 			}
 		},
@@ -298,20 +317,23 @@
 
 
 
-
 		{
-			"name": "HTML: Tag name",
+			"name": "XML & HTML: Doctype & Peprocessor",
 			"scope": [
-				"entity.name.tag.html"
+				"meta.tag.preprocessor.xml",
+				"meta.tag.preprocessor.xml entity.name.tag",
+				"meta.tag.metadata.doctype.html",
+				"meta.tag.metadata.doctype.html entity.name.tag"
 			],
 			"settings": {
-				"fontStyle":"bold",
-				"foreground": "#303030"
+				"fontStyle":"normal",
+				"foreground": "#006ab1"
 			}
 		},
 		{
-			"name": "HTML: special attributes",
+			"name": "XML & HTML: Tag name",
 			"scope": [
+				"entity.name.tag",
 				"meta.attribute.checked.html",
 				"meta.attribute.selected.html",
 				"meta.attribute.multiple.html",
@@ -320,19 +342,18 @@
 			],
 			"settings": {
 				"fontStyle":"bold",
-				"foreground": "#447544"
-			}
-		},
-		{
-			"name": "HTML: attribute separator",
-			"scope": [
-				"punctuation.separator.key-value.html"
-			],
-			"settings": {
-				"fontStyle":"normal",
 				"foreground": "#303030"
 			}
 		},
+
+
+
+
+
+
+
+
+
 
 
 
@@ -572,7 +593,8 @@
 				"keyword.operator.logical.go",
 				"constant.language.null.go",
 				"constant.language.boolean.go",
-				"entity.name.function.support.builtin.go"
+				"entity.name.function.support.builtin.go",
+				"entity.name.type.any.go"
 			],
 			"settings": {
 				"fontStyle":"bold",
@@ -630,42 +652,6 @@
 			}
 		},
 
-
-
-		{
-			"name": "XML: tags",
-			"scope": [
-				"punctuation.definition.tag.xml",
-				"entity.name.tag.localname.xml"
-			],
-			"settings": {
-				"fontStyle":"bold",
-				"foreground": "#303030"
-			}
-		},
-		{
-			"name": "XML: attributes",
-			"scope": [
-				"entity.other.attribute-name.xml",
-				"meta.tag.preprocessor.xml"
-			],
-			"settings": {
-				"fontStyle":"normal",
-				"foreground": "#303030"
-			}
-		},
-		{
-			"name": "XML: text",
-			"scope": [
-				"text.xml",
-				"punctuation.definition.string.begin.xml",
-				"punctuation.definition.string.begin.xml"
-			],
-			"settings": {
-				"fontStyle":"normal",
-				"foreground": "#447544"
-			}
-		},
 
 
 
