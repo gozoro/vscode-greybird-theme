@@ -9,7 +9,7 @@
         "vscode": ">=1.61.0"
     },
 	"license": "MIT",
-	"icon": "./img/icon.png",
+	"icon": "./images/icon.png",
 	"keywords": [
         "greybird",
         "light",
